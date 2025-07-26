@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">分帳小幫手</string>
+    <string name="passwordStar">**********************</string>
+    <string name="password">Password</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_up">SIGN IN/UP</string>
+    <string name="email">Email</string>
+    <string name="remark">備註：</string>
+    <string-array name="itemList">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+</resources>

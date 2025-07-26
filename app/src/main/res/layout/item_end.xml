@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="8dp"
+    app:strokeColor="#A3D1D1"
+    app:strokeWidth="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.101">
+
+            <TextView
+                android:id="@+id/youText"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="你"
+                android:textAlignment="center"
+                android:textColor="#336666"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/baseline_keyboard_double_arrow_right_24" />
+
+            <TextView
+                android:id="@+id/sumText"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="3dp"
+                android:text="9999"
+                android:textAlignment="center"
+                android:textColor="#5CADAD"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/baseline_keyboard_double_arrow_right_24" />
+
+            <TextView
+                android:id="@+id/othersText"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="對方"
+                android:textAlignment="center"
+                android:textColor="#336666"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/settleButton"
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#408080"
+            android:text="結清"
+            android:textSize="18sp"
+            app:cornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.965"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/settleText"
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:text="已結清"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#408080"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:visibility="invisible"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.965"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.92" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
